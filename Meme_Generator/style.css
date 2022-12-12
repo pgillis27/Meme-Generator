@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+  color: #111 text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Permanent Marker', cursive;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Permanent Marker', cursive;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  box-shadow: 10px 5px 10px rgb(106, 102, 102);
+}
+
+.btn:active {
+  box-shadow: inset -3px -3px 4px rgb(239, 233, 233, .7),
+    inset 3px 3px 4px rgba(0, 0, 0, .7);
+}
+
+#image {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Permanent Marker', cursive;
+  width: 400px;
+  height: 20px;
+  font-weight: bold;
+
+}
+
+#upperText {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Permanent Marker', cursive;
+  width: 400px;
+  height: 20px;
+  font-weight: bold;
+
+}
+
+#lowerText {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Permanent Marker', cursive;
+  width: 400px;
+  height: 20px;
+  font-weight: bold;
+}
+
+label {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Permanent Marker', cursive;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+body {
+  background-image: linear-gradient(to right, #a59f9f 0%, rgb(32, 31, 31) 100%);
+
+}
+
+.textTop {
+  position: absolute;
+  top: 10px;
+  left: 10rem;
+  color: rgba(255, 255, 255, 0.881);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.textBottom {
+  position: absolute;
+  bottom: 10px;
+  left: 10rem;
+  color: rgba(255, 255, 255, 0.881);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.meme {
+  position: relative;
+}
+
+section {
+  margin-top: 75px;
+}
+
+img {
+  border-radius: 30px;
+}
