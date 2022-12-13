@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
   color: #111 text-align: center;
@@ -8,7 +12,7 @@ h1 {
 }
 
 .btn {
-  border-radius: 8px;
+  border-radius: 9px;
   padding: 8px 15px;
   font-family: 'Comfortaa', cursive;
   font-family: 'Permanent Marker', cursive;
@@ -69,7 +73,7 @@ body {
 .textTop {
   position: absolute;
   top: 10px;
-  left: 10rem;
+  left: 20%;
   color: rgba(255, 255, 255, 0.881);
   font-size: 40px;
   font-weight: bold;
@@ -78,7 +82,7 @@ body {
 .textBottom {
   position: absolute;
   bottom: 10px;
-  left: 10rem;
+  left: 20%;
   color: rgba(255, 255, 255, 0.881);
   font-size: 40px;
   font-weight: bold;
@@ -86,12 +90,17 @@ body {
 
 .meme {
   position: relative;
+  display: inline-block;
 }
 
 section {
-  margin-top: 75px;
+  margin-top: 30px;
+  position: relative;
 }
 
 img {
   border-radius: 30px;
+  display: inline;
+  max-height: 600px;
+  max-width: auto;
 }
